@@ -155,3 +155,6 @@ Branch master set up to track remote branch master from origin.
 
 Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (master)
 $
+
+---untuk mengupload branch "cabang" ketik :
+git push -u origin cabang
