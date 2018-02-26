@@ -158,3 +158,8 @@ $
 
 ---untuk mengupload branch "cabang" ketik :
 git push -u origin cabang
+
+
+---untuk meng-update file di repo sesuai data github ketik :
+git pull
+
