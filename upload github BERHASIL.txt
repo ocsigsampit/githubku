@@ -1,4 +1,3 @@
-
 Mas Budi@LaptopeMasBudi MINGW32 /d/githubku
 $ git init
 Initialized empty Git repository in D:/githubku/.git/
@@ -48,85 +47,6 @@ $ git branch
 
 Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (cabang)
 $ git remote add origin https://github.com/ocsigsampit/githubku.git
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (cabang)
-$ git push -u origin master
-Username for 'https://github.com': ocsigsampit
-To https://github.com/ocsigsampit/githubku.git
- ! [rejected]        master -> master (fetch first)
-error: failed to push some refs to 'https://github.com/ocsigsampit/githubku.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (cabang)
-$ git chechout "master"
-git: 'chechout' is not a git command. See 'git --help'.
-
-Did you mean this?
-        checkout
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (cabang)
-$ git checkout "master"
-Switched to branch 'master'
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (master)
-$ git branch
-  cabang
-* master
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (master)
-$ git remote add origin https://github.com/ocsigsampit/githubku.git
-fatal: remote origin already exists.
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (master)
-$ git push -u origin master
-Username for 'https://github.com': ocsigsampit
-To https://github.com/ocsigsampit/githubku.git
- ! [rejected]        master -> master (fetch first)
-error: failed to push some refs to 'https://github.com/ocsigsampit/githubku.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (master)
-$ git pull origin master
-warning: no common commits
-remote: Counting objects: 3, done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (3/3), done.
-From https://github.com/ocsigsampit/githubku
- * branch            master     -> FETCH_HEAD
- * [new branch]      master     -> origin/master
-fatal: refusing to merge unrelated histories
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (master)
-$ git checkout "cabang"
-Switched to branch 'cabang'
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (cabang)
-$ git pull origin master
-From https://github.com/ocsigsampit/githubku
- * branch            master     -> FETCH_HEAD
-fatal: refusing to merge unrelated histories
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (cabang)
-$ git pull origin cabang
-fatal: Couldn't find remote ref cabang
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (cabang)
-$ git checkout "master"
-Switched to branch 'master'
-
-Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (master)
-$ git pull origin master
-From https://github.com/ocsigsampit/githubku
- * branch            master     -> FETCH_HEAD
-fatal: refusing to merge unrelated histories
 
 Mas Budi@LaptopeMasBudi MINGW32 /d/githubku (master)
 $ git pull origin master --allow-unrelated-histories
